@@ -1,0 +1,13 @@
+{
+  "name": "bribrrybuster-backend",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node -e \"const {calculateReward}=require('./src/services/reward');console.log(calculateReward(500,2,2.0));\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
