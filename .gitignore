@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Local data and secrets
+backend/corrupt.db
+backend/data/
+backend/.keys/
+.env
+.env.*
+
+# Node
+node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# Solana / Anchor
+onchain/target/
+onchain/.anchor/
+test-ledger/
